@@ -45,8 +45,8 @@ int main(void) {
     int ret;
     uint8_t data[1024];
     // 0x03 is a UI frame
-    // 0x0F is no Level 3 protocol
-    const char *str = "\x03\x0fThis is an AX.25 Packet!!!";
+    // 0xF0 is no Level 3 protocol
+    const char *str = "\x03\xf0This is an AX.25 Packet!!!";
 
     /* Infinite loop */
     for (;;) {

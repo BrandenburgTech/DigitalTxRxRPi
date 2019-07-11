@@ -617,9 +617,12 @@ int ax5043_autoranging(ax5043_conf_t *conf) {
     }
 
     usleep(10);
-    val = 0;
     /* Wait until the autoranging is complete */
-    while ((val & BIT(4)) == 0) {
+    ret = ax5043_spi_read_8(conf, &val, pllranging_reg);
+    if (ret) {
+        return ret;
+    }
+    while ((val & BIT(4)) != 0) {
         ret = ax5043_spi_read_8(conf, &val, pllranging_reg);
         if (ret) {
             return ret;

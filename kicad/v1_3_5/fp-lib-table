@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name ecx-42-smd-crystal)(type KiCad)(uri ${KIPRJMOD}/library/ECX42.pretty)(options "")(descr ""))
+  (lib (name ax5043)(type KiCad)(uri ${KIPRJMOD}/library/ax5043.pretty)(options "")(descr ""))
+  (lib (name ax5243)(type Legacy)(uri ${KIPRJMOD}/library/AX5243-1-TA05.mod)(options "")(descr ""))
+)

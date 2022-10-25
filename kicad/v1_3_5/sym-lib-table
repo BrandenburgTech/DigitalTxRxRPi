@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name max31725)(type Legacy)(uri ${KIPRJMOD}/library/max31725.lib)(options "")(descr ""))
+  (lib (name ax5043)(type Legacy)(uri ${KIPRJMOD}/library/AX5043-1-TA05.lib)(options "")(descr ""))
+  (lib (name ax5243)(type Legacy)(uri ${KIPRJMOD}/library/AX5243-1-TA05.lib)(options "")(descr ""))
+)

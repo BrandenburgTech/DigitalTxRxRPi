@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AX5043-1-TA05
+D AX5043 27-1050MHz RF Transceiver AX5043-1-TA05, RF Transceiver 27  1050MHz, AFSK, ASK, FM, FSK, GFSK, GMSK, MSK, PSK, QFSK, 1.8  3.6 V
+F http://docs-europe.electrocomponents.com/webdocs/14ae/0900766b814aed64.pdf
+$ENDCMP
+#
+#End Doc Library

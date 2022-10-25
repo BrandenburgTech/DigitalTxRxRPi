@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AX5243-1-TA05
+D AX5243 27-1050MHz RF Transceiver ON Semiconductor AX5243-1-TA05, RF Transceiver 27MHz to 1050MHz 1.8  3.6 V 20-Pin QFN
+K
+F http://www.onsemi.com/pub_link/Collateral/AX5243-D.PDF
+$ENDCMP
+#
+#End Doc Library
